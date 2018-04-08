@@ -1,0 +1,25 @@
+From 4cfaff125aee1572caf729f10cb6e07e16a583dc Mon Sep 17 00:00:00 2001
+From: Hannes Hornwall <hannes@hornwall.me>
+Date: Sun, 8 Apr 2018 21:06:10 +0200
+Subject: [PATCH] Increase font size
+
+---
+ config.def.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/config.def.h b/config.def.h
+index b41747f..50010d4 100644
+--- a/config.def.h
++++ b/config.def.h
+@@ -5,7 +5,7 @@
+  *
+  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
+  */
+-static char font[] = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
++static char font[] = "Liberation Mono:pixelsize=16:antialias=true:autohint=true";
+ static int borderpx = 2;
+ 
+ /*
+-- 
+2.16.3
+
